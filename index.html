@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Overview</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand" aria-label="Brand logo">
+          <div class="brand-mark">A</div>
+          <div class="brand-text">
+            <span class="brand-name">Aster</span>
+            <small>Dashboard</small>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#" class="active">Overview</a>
+          <a href="#">Analytics</a>
+          <a href="#">Customers</a>
+          <a href="#">Reports</a>
+        </nav>
+
+        <div class="topbar-actions">
+          <button class="secondary-btn">Export</button>
+          <div class="user-pill">
+            <span class="avatar">JD</span>
+            <div>
+              <strong>Jordan D.</strong>
+              <small>Admin</small>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="dashboard">
+        <section class="hero-card">
+          <div class="hero-copy">
+            <p class="eyebrow">Performance overview</p>
+            <h1>Welcome back, Jordan.</h1>
+            <p>
+              Your business is trending up this month, with strong engagement
+              across all active services.
+            </p>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <span>Growth</span>
+              <strong>+18.4%</strong>
+            </div>
+            <div>
+              <span>Target</span>
+              <strong>92%</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="metrics-grid" aria-label="Key performance metrics">
+          <article class="metric-card accent-blue">
+            <div class="metric-head">
+              <span>Total Revenue</span>
+              <span class="trend up">+12.8%</span>
+            </div>
+            <h2>$84.2K</h2>
+            <p>Compared to last month</p>
+          </article>
+
+          <article class="metric-card accent-purple">
+            <div class="metric-head">
+              <span>Active Clients</span>
+              <span class="trend up">+8.1%</span>
+            </div>
+            <h2>1,248</h2>
+            <p>Across 3 service lines</p>
+          </article>
+
+          <article class="metric-card accent-green">
+            <div class="metric-head">
+              <span>Conversion Rate</span>
+              <span class="trend up">+5.3%</span>
+            </div>
+            <h2>7.6%</h2>
+            <p>Improved marketing ROI</p>
+          </article>
+        </section>
+
+        <section class="content-grid">
+          <article class="service-panel">
+            <div class="panel-header">
+              <h3>Service overview</h3>
+              <a href="#">View all</a>
+            </div>
+
+            <div class="service-list">
+              <div class="service-item">
+                <div class="service-icon blue">D</div>
+                <div>
+                  <strong>Design</strong>
+                  <small>12 active projects</small>
+                </div>
+                <span class="service-value">84%</span>
+              </div>
+
+              <div class="service-item">
+                <div class="service-icon purple">M</div>
+                <div>
+                  <strong>Marketing</strong>
+                  <small>8 campaigns live</small>
+                </div>
+                <span class="service-value">76%</span>
+              </div>
+
+              <div class="service-item">
+                <div class="service-icon green">S</div>
+                <div>
+                  <strong>Strategy</strong>
+                  <small>5 advisory plans</small>
+                </div>
+                <span class="service-value">91%</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="activity-panel">
+            <div class="panel-header">
+              <h3>Recent activity</h3>
+              <a href="#">Today</a>
+            </div>
+
+            <ul class="activity-list">
+              <li>
+                <span class="dot blue"></span>
+                New client onboarding approved
+                <time>10:42 AM</time>
+              </li>
+              <li>
+                <span class="dot purple"></span>
+                Campaign budget increased by 15%
+                <time>09:15 AM</time>
+              </li>
+              <li>
+                <span class="dot green"></span>
+                Monthly report was exported
+                <time>Yesterday</time>
+              </li>
+            </ul>
+          </article>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>© 2026 Aster Dashboard</p>
+      </footer>
+    </div>
+  </body>
+</html>
